@@ -1,2 +1,2 @@
-# petmacaw
-cute pet
+# petmacaw.cn
+cute pet miniProgram
