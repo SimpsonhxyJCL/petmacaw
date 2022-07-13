@@ -1,0 +1,134 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cutepetcircle/cutepetcircle",
+    "pages/find/find",
+    "pages/me/me"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/componentsA",
+      "pages": [
+        "transition/transition",
+        "test/test",
+        "icon/icon",
+        "cell/cell",
+        "line/line",
+        "image/image",
+        "link/link",
+        "button/button",
+        "loading-icon/loading-icon",
+        "overlay/overlay",
+        "loading-page/loading-page",
+        "popup/popup",
+        "swipeAction/swipeAction",
+        "sticky/sticky",
+        "radio/radio",
+        "checkbox/checkbox",
+        "empty/empty",
+        "backtop/backtop",
+        "divider/divider",
+        "rate/rate",
+        "gap/gap",
+        "grid/grid"
+      ]
+    },
+    {
+      "root": "pages/componentsB",
+      "pages": [
+        "dropdown/dropdown",
+        "actionSheet/actionSheet",
+        "parse/parse",
+        "parse/jump",
+        "toast/toast",
+        "keyboard/keyboard",
+        "slider/slider",
+        "upload/upload",
+        "notify/notify",
+        "countDown/countDown",
+        "color/color",
+        "numberBox/numberBox",
+        "countTo/countTo",
+        "search/search",
+        "badge/badge",
+        "tag/tag",
+        "alert/alert",
+        "switch/switch",
+        "collapse/collapse",
+        "code/code",
+        "noticeBar/noticeBar",
+        "progress/progress",
+        "tabbar/tabbar"
+      ]
+    },
+    {
+      "root": "pages/componentsC",
+      "pages": [
+        "table/table",
+        "form/form",
+        "textarea/textarea",
+        "noNetwork/noNetwork",
+        "loadmore/loadmore",
+        "text/text",
+        "steps/steps",
+        "navbar/navbar",
+        "skeleton/skeleton",
+        "input/input",
+        "album/album",
+        "avatar/avatar",
+        "readMore/readMore",
+        "layout/layout",
+        "indexList/indexList",
+        "tooltip/tooltip",
+        "tabs/tabs",
+        "list/list",
+        "swiper/swiper",
+        "scrollList/scrollList",
+        "codeInput/codeInput",
+        "modal/modal",
+        "picker/picker",
+        "calendar/calendar",
+        "datetimePicker/datetimePicker",
+        "subsection/subsection"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#00aeec",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "萌宠之家"
+  },
+  "tabBar": {
+    "backgroundImage": "white",
+    "borderStyle": "black",
+    "fontSize": "50rpx",
+    "selectedColor": "#00aeec",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home_active.png"
+      },
+      {
+        "pagePath": "pages/cutepetcircle/cutepetcircle",
+        "text": "萌宠圈",
+        "iconPath": "./static/tabbar/cutepet.png",
+        "selectedIconPath": "static/tabbar/cutepet_active.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "./static/tabbar/find.png",
+        "selectedIconPath": "static/tabbar/find_active.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "./static/tabbar/mine.png",
+        "selectedIconPath": "static/tabbar/mine_active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
